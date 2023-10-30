@@ -1,0 +1,57 @@
+https://grokonez.com/node-js/nodejs-express-mongodb-one-to-many-related-models
+https://medium.com/@bhanushali.mahesh3/building-a-restful-crud-api-with-node-js-jwt-bcrypt-express-and-mongodb-4e1fb20b7f3d
+https://jasonwatmore.com/post/2018/06/14/nodejs-mongodb-simple-api-for-authentication-registration-and-user-management
+
+// upload files
+https://attacomsian.com/blog/uploading-files-nodejs-express
+
+// web push notifications 
+https://blog.angular-university.io/angular-push-notifications/
+
+// To run app on server
+nohup nodemon -I server.js
+
+calcul of directions
+https://www.djamware.com/post/58f4da2080aca7414e78a638/step-by-step-tutorial-of-ionic-3-angular-4-and-google-maps-directions-service
+
+{"publicKey":"BAvuHuTsruBuxxGqj8BCGV7jbPUoKVuKvdiT6B07SENOYl1v0VxLKT2O75snSsL3JYpCw_rBAV9-Az-9oW7Jfag","privateKey":"TZeZ78eLiYdBbbcvYPuid3cFPR4FT44jc3MIJkhVu-M"}
+
+
+// Push notifications
+https://medium.com/appseed-io/how-to-integrate-onesignal-push-notifications-into-an-ionic-3-application-eb2fdc3e6176
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Error: EACCES: permission denied, open './uploads/404720868684677700.png'
+    at Object.openSync (fs.js:461:3)
+    at Object.writeFileSync (fs.js:1387:35)
+    at /home/ubuntu/teepzyapi/server.js:145:10
+    at Layer.handle [as handle_request] (/home/ubuntu/teepzyapi/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/ubuntu/teepzyapi/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/ubuntu/teepzyapi/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/ubuntu/teepzyapi/node_modules/express/lib/router/layer.js:95:5)
+    at /home/ubuntu/teepzyapi/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/home/ubuntu/teepzyapi/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/ubuntu/teepzyapi/node_modules/express/lib/router/index.js:275:10)
+    at serveStatic (/home/ubuntu/teepzyapi/node_modules/serve-static/index.js:75:16)
+    at Layer.handle [as handle_request] (/home/ubuntu/teepzyapi/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/ubuntu/teepzyapi/node_modules/express/lib/router/index.js:317:13)
+    at /home/ubuntu/teepzyapi/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/ubuntu/teepzyapi/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/ubuntu/teepzyapi/node_modules/express/lib/router/index.js:275:10) {
+  errno: -13,
+  syscall: 'open',
+  code: 'EACCES',
+  path: './uploads/404720868684677700.png'
+}

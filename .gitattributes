@@ -1,0 +1,4 @@
+*.csv filter=lfs diff=lfs merge=lfs -text
+/data/journal/prealloc.0 filter=lfs diff=lfs merge=lfs -text
+/data/journal/prealloc.1 filter=lfs diff=lfs merge=lfs -text
+data/journal/prealloc.2 filter=lfs diff=lfs merge=lfs -text
